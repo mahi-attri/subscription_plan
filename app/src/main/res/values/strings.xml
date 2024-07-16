@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyntraSubscriptionPlan</string>
+    <string name="Myntra">Myntra</string>
+    <string name="myntra_subscription_clothing_plan">MYNTRA SUBSCRIPTION CLOTHING PLAN</string>
+    <string name="welcome_user">Welcome User!</string>
+    <string name="discover_a_new_wardrobe_every_month">Discover a New Wardrobe Every Month!</string>
+    <string name="standard">STANDARD</string>
+    <string name="basic">BASIC</string>
+    <string name="one">(1-Month Membership)</string>
+    <string name="three">(3-Month Membership)</string>
+    <string name="prem">Premium</string>
+    <string name="six">(6-Month Membership)</string>
+    <string name="elite">Elite</string>
+    <string name="twelve">(12-Month Membership)</string>
+    <string name="logo">logo</string>
+    <string name="basic_plan">BASIC (1-MONTH MEMBERSHIP)</string>
+    <string name="arrow">arrow</string>
+    <string name="circle">circle</string>
+    <string name="cloth"><b>Clothes Discount:</b>\n25% off on up to 5 clothing items.\n</string>
+    <string name="currency">₹1,699</string>
+    <string name="basic_beauty"><b>Beauty Products Discount:</b></string>
+    <string name="price_beauty">499</string>
+    <string name="add">Add\n₹499</string>
+    <string name="optional">Optional</string>
+    <string name="shipping"><b>FREE</b> Shipping On All Purchases</string>
+    <string name="ttl_amt">Total Amount:</string>
+    <string name="select">SELECT PLAN</string>
+    <string name="currency2">₹1,699</string>
+
+
+</resources>

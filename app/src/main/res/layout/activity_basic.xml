@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".BasicActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/golden"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/left_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@null"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="19dp"
+            android:textSize="20sp"
+            android:textColor="@color/black_second"
+            android:textStyle="bold"
+            android:text="@string/basic_plan" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/cloth_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/cloth" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/currency"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="398dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/optional">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="-6dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/optional"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+
+            <!-- Content of expandable section -->
+            <TextView
+                android:id="@+id/expandableTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/basic_beauty"
+                android:textColor="@color/white"
+                android:layout_marginStart="35dp"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/golden"
+                android:text="@string/add"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="30dp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/shipping">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/shipping" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="800dp"
+        android:background="@drawable/shipping">
+
+        <TextView
+            android:id="@+id/labelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ttl_amt"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/amountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/currency2"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="@color/golden"
+            android:text="@string/select"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
