@@ -1,7 +1,7 @@
-Myntra Subscription Plan Android App
+Subscription Plan Android App
 
 
-The Myntra Subscription Plan Android app is crafted to offer users a range of subscription options with intuitive layouts for each plan, ensuring effortless navigation and selection. 
+The Subscription Plan Android app is crafted to offer users a range of subscription options with intuitive layouts for each plan, ensuring effortless navigation and selection. 
 
  • MainActivity:
 It features a black-themed RelativeLayout with a prominent white header displaying a centered logo and informative text sections below. Each subscription plan is presented in the central section with a RelativeLayout, offering titles, descriptions, hover effects, and clickable functionality for easy exploration.
@@ -18,5 +18,5 @@ It provides a comprehensive view with a black-themed layout, a golden header, an
  • EliteActivity:
 It offers a comprehensive display characterized by a stylish black layout complemented by golden headers. It includes thorough sections outlining subscription choices, enriched with descriptive text and interactive buttons to engage users effectively.
 
-These thoughtfully designed layouts and functionalities ensure a user-friendly experience, enabling seamless exploration and selection of subscription plans tailored to individual preferences within the Myntra app.
+These thoughtfully designed layouts and functionalities ensure a user-friendly experience, enabling seamless exploration and selection of subscription plans tailored to individual preferences within the app.
 
